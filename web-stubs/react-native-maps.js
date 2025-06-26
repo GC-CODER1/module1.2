@@ -30,6 +30,7 @@ const Marker = ({ coordinate, title, description, children, ...props }) => {
         <Text style={styles.markerText}>📍</Text>
       </View>
       {title && <Text style={styles.markerTitle}>{title}</Text>}
+      }
     </View>
   );
 };
